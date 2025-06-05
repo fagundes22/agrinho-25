@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #4CAF50, #8BC34A);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.etapas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.etapa {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fotos {
+    display: flex;
+    gap: 1rem;
+}
+
+.fotos img {
+    width: 48%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
